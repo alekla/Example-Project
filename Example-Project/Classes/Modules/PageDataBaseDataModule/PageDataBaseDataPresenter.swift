@@ -19,4 +19,21 @@ class PageDataBaseDataPresenter: NSObject, PageDataBaseDataViewOutput {
         self.dataBaseManager = dataBaseManager
     }
     
+    func viewIsReady() {
+        view.showIndicatorView()
+        let items = dataBaseManager.getData()
+        if items.isEmpty {
+            view.showError("Не удалось загрузить данные")
+            self.view.hideIndicatorView()
+            return
+        }
+        view.setupInitialState(items: items)
+        view.hideIndicatorView()
+        
+    }
+    
+    func didClearButtonTapped() {
+        dataBaseManager.clearData()
+    }
+    
 }

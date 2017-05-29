@@ -10,7 +10,7 @@ import Foundation
 import Alamofire
 import AlamofireObjectMapper
 
-enum NetworkManagerError {
+enum NetworkManagerError: Error {
     case unavailable
 }
 

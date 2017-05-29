@@ -17,8 +17,6 @@
 		C433F9571EDC34C300D765D2 /* PageNetworkDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433F9561EDC34C300D765D2 /* PageNetworkDataViewController.swift */; };
 		C433F9591EDC352700D765D2 /* PageDataBaseDataPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433F9581EDC352700D765D2 /* PageDataBaseDataPresenter.swift */; };
 		C433F95B1EDC354600D765D2 /* PageNetworkDataPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433F95A1EDC354600D765D2 /* PageNetworkDataPresenter.swift */; };
-		C433F95D1EDC35EA00D765D2 /* PageNetworkDataPresenterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433F95C1EDC35EA00D765D2 /* PageNetworkDataPresenterProtocols.swift */; };
-		C433F95F1EDC35F600D765D2 /* PageDatabaseDataPresenterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433F95E1EDC35F600D765D2 /* PageDatabaseDataPresenterProtocols.swift */; };
 		C433F96A1EDC3BE200D765D2 /* ApiConstans.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433F9681EDC3BE200D765D2 /* ApiConstans.swift */; };
 		C433F96C1EDC3BFB00D765D2 /* Alamofire+REST.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433F96B1EDC3BFB00D765D2 /* Alamofire+REST.swift */; };
 		C433F9701EDC3C3200D765D2 /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433F96F1EDC3C3200D765D2 /* DataBaseManager.swift */; };
@@ -26,6 +24,11 @@
 		C433F9741EDC3D6200D765D2 /* closing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433F9731EDC3D6200D765D2 /* closing.swift */; };
 		C433F9761EDC3D8400D765D2 /* result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433F9751EDC3D8400D765D2 /* result.swift */; };
 		C433F9781EDC3DED00D765D2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433F9771EDC3DED00D765D2 /* Item.swift */; };
+		C433F97A1EDC583E00D765D2 /* PageDatabaseDataPresenterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433F9791EDC583E00D765D2 /* PageDatabaseDataPresenterProtocols.swift */; };
+		C433F97C1EDC585500D765D2 /* PageNetworkDataPresenterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433F97B1EDC585500D765D2 /* PageNetworkDataPresenterProtocols.swift */; };
+		C433F97E1EDC6AD500D765D2 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433F97D1EDC6AD500D765D2 /* UIViewController+Alert.swift */; };
+		C433F9801EDC6CAD00D765D2 /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C433F97F1EDC6CAD00D765D2 /* DataTableViewCell.swift */; };
+		C433F9841EDC6D5100D765D2 /* DataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C433F9831EDC6D5100D765D2 /* DataTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,8 +45,6 @@
 		C433F9561EDC34C300D765D2 /* PageNetworkDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageNetworkDataViewController.swift; sourceTree = "<group>"; };
 		C433F9581EDC352700D765D2 /* PageDataBaseDataPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageDataBaseDataPresenter.swift; sourceTree = "<group>"; };
 		C433F95A1EDC354600D765D2 /* PageNetworkDataPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageNetworkDataPresenter.swift; sourceTree = "<group>"; };
-		C433F95C1EDC35EA00D765D2 /* PageNetworkDataPresenterProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageNetworkDataPresenterProtocols.swift; sourceTree = "<group>"; };
-		C433F95E1EDC35F600D765D2 /* PageDatabaseDataPresenterProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageDatabaseDataPresenterProtocols.swift; sourceTree = "<group>"; };
 		C433F9681EDC3BE200D765D2 /* ApiConstans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiConstans.swift; sourceTree = "<group>"; };
 		C433F96B1EDC3BFB00D765D2 /* Alamofire+REST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire+REST.swift"; sourceTree = "<group>"; };
 		C433F96F1EDC3C3200D765D2 /* DataBaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
@@ -51,6 +52,11 @@
 		C433F9731EDC3D6200D765D2 /* closing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = closing.swift; sourceTree = "<group>"; };
 		C433F9751EDC3D8400D765D2 /* result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = result.swift; sourceTree = "<group>"; };
 		C433F9771EDC3DED00D765D2 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		C433F9791EDC583E00D765D2 /* PageDatabaseDataPresenterProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageDatabaseDataPresenterProtocols.swift; sourceTree = "<group>"; };
+		C433F97B1EDC585500D765D2 /* PageNetworkDataPresenterProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageNetworkDataPresenterProtocols.swift; sourceTree = "<group>"; };
+		C433F97D1EDC6AD500D765D2 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		C433F97F1EDC6CAD00D765D2 /* DataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		C433F9831EDC6D5100D765D2 /* DataTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,7 +188,7 @@
 			children = (
 				C433F9541EDC34B200D765D2 /* PageDataBaseDataViewController.swift */,
 				C433F9581EDC352700D765D2 /* PageDataBaseDataPresenter.swift */,
-				C433F95C1EDC35EA00D765D2 /* PageNetworkDataPresenterProtocols.swift */,
+				C433F9791EDC583E00D765D2 /* PageDatabaseDataPresenterProtocols.swift */,
 			);
 			path = PageDataBaseDataModule;
 			sourceTree = "<group>";
@@ -190,9 +196,9 @@
 		C433F9531EDC347D00D765D2 /* PageNetworkDataModule */ = {
 			isa = PBXGroup;
 			children = (
+				C433F97B1EDC585500D765D2 /* PageNetworkDataPresenterProtocols.swift */,
 				C433F9561EDC34C300D765D2 /* PageNetworkDataViewController.swift */,
 				C433F95A1EDC354600D765D2 /* PageNetworkDataPresenter.swift */,
-				C433F95E1EDC35F600D765D2 /* PageDatabaseDataPresenterProtocols.swift */,
 			);
 			path = PageNetworkDataModule;
 			sourceTree = "<group>";
@@ -200,6 +206,8 @@
 		C433F9601EDC39D900D765D2 /* DataCell */ = {
 			isa = PBXGroup;
 			children = (
+				C433F97F1EDC6CAD00D765D2 /* DataTableViewCell.swift */,
+				C433F9831EDC6D5100D765D2 /* DataTableViewCell.xib */,
 			);
 			path = DataCell;
 			sourceTree = "<group>";
@@ -217,6 +225,7 @@
 			children = (
 				C433F96B1EDC3BFB00D765D2 /* Alamofire+REST.swift */,
 				C433F9731EDC3D6200D765D2 /* closing.swift */,
+				C433F97D1EDC6AD500D765D2 /* UIViewController+Alert.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -284,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C433F9841EDC6D5100D765D2 /* DataTableViewCell.xib in Resources */,
 				C433F94D1EDC331000D765D2 /* Info.plist in Resources */,
 				C433F94A1EDC331000D765D2 /* LaunchScreen.storyboard in Resources */,
 				C433F94C1EDC331000D765D2 /* Assets.xcassets in Resources */,
@@ -346,10 +356,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C433F95D1EDC35EA00D765D2 /* PageNetworkDataPresenterProtocols.swift in Sources */,
+				C433F97E1EDC6AD500D765D2 /* UIViewController+Alert.swift in Sources */,
+				C433F97A1EDC583E00D765D2 /* PageDatabaseDataPresenterProtocols.swift in Sources */,
 				C433F9761EDC3D8400D765D2 /* result.swift in Sources */,
 				C433F9571EDC34C300D765D2 /* PageNetworkDataViewController.swift in Sources */,
-				C433F95F1EDC35F600D765D2 /* PageDatabaseDataPresenterProtocols.swift in Sources */,
 				C433F9781EDC3DED00D765D2 /* Item.swift in Sources */,
 				C433F9741EDC3D6200D765D2 /* closing.swift in Sources */,
 				C433F9551EDC34B200D765D2 /* PageDataBaseDataViewController.swift in Sources */,
@@ -357,9 +367,11 @@
 				C433F9591EDC352700D765D2 /* PageDataBaseDataPresenter.swift in Sources */,
 				C433F9491EDC331000D765D2 /* AppDelegate.swift in Sources */,
 				C433F95B1EDC354600D765D2 /* PageNetworkDataPresenter.swift in Sources */,
+				C433F97C1EDC585500D765D2 /* PageNetworkDataPresenterProtocols.swift in Sources */,
 				C433F96C1EDC3BFB00D765D2 /* Alamofire+REST.swift in Sources */,
 				C433F96A1EDC3BE200D765D2 /* ApiConstans.swift in Sources */,
 				C433F9701EDC3C3200D765D2 /* DataBaseManager.swift in Sources */,
+				C433F9801EDC6CAD00D765D2 /* DataTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

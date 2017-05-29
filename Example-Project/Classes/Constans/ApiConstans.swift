@@ -19,18 +19,14 @@ public struct REST {
 
 
 enum Api {
-    
-    
     case getData
-    
-    
 }
 
 
 extension Api {
     
     var host: String  {
-        return ""
+        return "http://alekla.sytes.net/"
     }
 
     
@@ -38,7 +34,7 @@ extension Api {
         switch self {
         
         case .getData:
-            return REST(url: host + "/", method: .get, encoding: URLEncoding.default)
+            return REST(url: host + "items.json", method: .get, encoding: URLEncoding.default)
         }
     }
 }
