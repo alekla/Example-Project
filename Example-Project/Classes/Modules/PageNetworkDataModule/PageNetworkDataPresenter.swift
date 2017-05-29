@@ -12,9 +12,17 @@ import Foundation
 class PageNetworkDataPresenter: NSObject, PageNetworkDataViewOutput {
     
     private weak var view: PageNetworkDataViewInput!
+    private var networkManager: NetworkManager!
     
-    init(view: PageNetworkDataViewInput) {
+    init(view: PageNetworkDataViewInput, networkManager: NetworkManager) {
         self.view = view
+        self.networkManager = networkManager
+    }
+    
+    
+    func viewIsReady() {
+        view.showIndicatorView()
+        view.hideIndicatorView()
     }
     
     

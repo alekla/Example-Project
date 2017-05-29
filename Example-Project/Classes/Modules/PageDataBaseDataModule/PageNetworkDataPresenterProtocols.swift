@@ -11,6 +11,9 @@ import Foundation
 
 protocol PageNetworkDataViewInput: class {
     
+    func showIndicatorView()
+    
+    func hideIndicatorView()
     
 }
 

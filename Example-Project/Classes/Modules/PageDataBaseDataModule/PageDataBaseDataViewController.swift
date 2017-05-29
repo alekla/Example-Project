@@ -16,7 +16,7 @@ class PageDataBaseDataViewController: UIViewController, PageDataBaseDataViewInpu
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        output = PageDataBaseDataPresenter(view: self)
+        output = PageDataBaseDataPresenter(view: self, dataBaseManager: DataBaseManagerImpl.shared)
         
         
     }
