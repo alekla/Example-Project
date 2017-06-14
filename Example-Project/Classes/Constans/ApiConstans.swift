@@ -34,7 +34,7 @@ extension Api {
         switch self {
         
         case .getData:
-            return REST(url: host + "items.json", method: .get, encoding: URLEncoding.default)
+            return REST(url: host + "resources/items.json", method: .get, encoding: URLEncoding.default)
         }
     }
 }
